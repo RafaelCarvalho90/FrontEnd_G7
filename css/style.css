@@ -1,0 +1,78 @@
+:root {
+  --cor1: #352c84;
+  --cor2: #eaeaec;
+  --cor3: #afc8df;
+  --cor4: #75a6d2;
+  --cor5: #3b84c5;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: #352c84;
+}
+
+header img{
+    height: 100px;
+}
+
+.tela{
+    height: 1000px;
+    width: 100%;
+    background-image: url(/assets/images/quitanda.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.search{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 70px;
+    background-color: #ffffff95;
+    border-radius: 40px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    margin-top:5px;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .search .search_input{
+    padding: 0 10px;
+    width: 550px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+    
+    .search:hover > .search_icon{
+    background: rgb(255, 255, 255);
+    color: #fff;
+    }
+
+    .search_icon{
+    height: 50px;
+    width: 50px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    background-color:black;
+    }
+    
+a:link{
+    text-decoration:none;
+}    
