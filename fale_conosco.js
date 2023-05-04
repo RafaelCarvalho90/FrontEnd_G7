@@ -10,8 +10,8 @@ function enviarFormulario() {
     }
 
     // validar o campo de e-mail usando regex
-    let regexEmail = /^\S+@\S+\.\S+$/;
-    if (!regexEmail.test(inputEmail)) {
+    let regexEmail = /^[^\s@]+@[^\s@]+.[^\s@]+$/;
+    if (!regexEmail.test(email)) {
     alert("Por favor, insira um endereço de e-mail válido");
     return;
     }
