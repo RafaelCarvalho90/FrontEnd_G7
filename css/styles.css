@@ -42,26 +42,22 @@ table {
 	border-spacing: 0;
 }
 
-body {
-    background-image: url(https://ogimg.infoglobo.com.br/in/25043301-664-471/FT1086A/Palacio-QuitandinhaBruno-Soares.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+#carouselExampleCaptions .carousel-inner .carousel-item img {
+    height: 100vh;
+    width: 100%;
 }
 
-.turistec-header {
-    width: 100%;
-    height: 200px;
+.carousel-inner .carousel-item > img{
+    -webkit-animation: zoom 9s;
+    -o-animation: zoom 9s;
+    animation: zoom 9s;
 }
 
-.overlay{
-    position: absolute;
-    z-index: 2;
-    background-image: url(/Midias/overlay.png);
-    background-repeat: repeat;
-    background-attachment: scroll;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    opacity: .5;
+@keyframes zoom {
+    from {
+        transform: scale(1, 1);
+    }
+    to{
+        transform: scale(1.5, 1.5);
+    }
 }
