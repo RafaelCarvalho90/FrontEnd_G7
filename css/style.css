@@ -33,7 +33,7 @@ header {
   transition: transform 4s ease-in-out;
 }
 
-.iconescabeca:hover{
+.iconescabeca:hover {
   color: #eaeaec;
 }
 
@@ -42,11 +42,9 @@ header {
   transform: translate(100px, 0);
 }
 
-
-.iconeburge{
+.iconeburge {
   transform: translate(-100px, 0);
 }
-
 
 header img {
   height: 300px;
@@ -96,7 +94,7 @@ header img {
   cursor: pointer;
 }
 
-.setinha:hover{
+.setinha:hover {
   color: #eaeaec;
 }
 
