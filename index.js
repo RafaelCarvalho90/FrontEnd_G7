@@ -52,7 +52,7 @@ function inicio() {
 
 Array.from(setinha).forEach(function (elemento) {
   elemento.addEventListener("click", (event) => {
-    window.scrollTo(0, 792);
+    window.scrollTo(0, 600);
   });
 });
 
