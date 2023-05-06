@@ -208,6 +208,7 @@ header img {
 }
 
 .setasesquedadireita{
+  cursor: pointer;
   position: absolute;
   width: 100%;
   justify-content: space-between;
