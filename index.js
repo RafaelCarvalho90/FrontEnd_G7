@@ -6,7 +6,10 @@ const lugares = document.getElementsByClassName("lugares");
 const setaesquerda = document.getElementsByClassName("setaesquerda");
 const setadireita = document.getElementsByClassName("setadireita");
 const caixas = document.getElementsByClassName("caixas");
+const iconburge = document.getElementById("iconeburge")
+const barralateral = document.getElementById("barra-lateral")
 
+let barrapos = 0;
 let movspd = 310;
 let dir = 0;
 
@@ -15,6 +18,16 @@ function inicio() {
     cabeca.style.height = "50px";
     turistecimg.style.height = "50px";
     document.body.style.overflowY = "visible";
+
+    iconburge.addEventListener("click", (event) =>{
+      if(barrapos == 0){
+      barralateral.style.transform = "translate(0px, 0)";
+      barrapos = 1;
+      }else{
+        barralateral.style.transform = "translate(-251px, 0)";
+        barrapos = 0;
+      }
+    });
 
     Array.from(caixas).forEach(function (elemento) {
       elemento.pos = 0;
@@ -52,7 +65,7 @@ function inicio() {
 
 Array.from(setinha).forEach(function (elemento) {
   elemento.addEventListener("click", (event) => {
-    window.scrollTo(0, 600);
+    window.scrollTo(0, 792);
   });
 });
 

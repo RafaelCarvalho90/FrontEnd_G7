@@ -10,14 +10,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous" defer></script>
     <!--CSS-->
     <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Turistec</title>
 </head>
 
 <body onload="inicio()">
     <header id="cabeca">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-            class="bi bi-list iconescabeca iconeburge" viewBox="0 0 16 16">
+            class="bi bi-list iconescabeca" id="iconeburge" viewBox="0 0 16 16">
             <path fill-rule="evenodd"
                 d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
         </svg>
@@ -31,6 +31,13 @@
                 d="M8.256 14a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z" />
         </svg>
     </header>
+
+    <div id="barra-lateral">
+        <div class="caixas-barra-lateral"><p>Menu</p></div>
+        <div class="caixas-barra-lateral"><p>Pontos Turisticos</p></div>
+        <div class="caixas-barra-lateral"><p>Fale Conosco</p></div>
+        <div class="caixas-barra-lateral"><p>Sobre nós</p></div>
+    </div>
 
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">

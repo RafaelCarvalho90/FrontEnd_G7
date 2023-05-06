@@ -1,5 +1,5 @@
 :root {
-  --cor1: #352c84;
+  --cor1: #342c82;
   --cor2: #eaeaec;
   --cor3: #afc8df;
   --cor4: #75a6d2;
@@ -22,7 +22,7 @@ header {
   height: 100%;
   width: 100%;
   transition: all 2s ease-in-out;
-  background-color: #352c84;
+  background-color: #342c82;
 }
 
 .iconescabeca {
@@ -54,7 +54,42 @@ header img {
   transition: all 2s ease-in-out;
 }
 
-/* .carrosel {
+.caixas-barra-lateral{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 50px;
+  border: 10px;
+  border-color: #afc8df;
+  border-bottom: 50px;
+}
+
+.caixas-barra-lateral:hover{
+    background-color: #342c82;
+    color: #eaeaec;
+}
+
+#barra-lateral{
+  display: flex;
+  flex-direction: column;
+  top: 50px;
+  height: 100%;
+  width: 251px;
+  transform: translateX(-251px);
+  z-index: 1;
+  position: fixed;
+  background-image: linear-gradient(to bottom, #75a6d2, #352c8200);
+  transition: all 0.5s ease-in-out;
+}
+
+.carousel-control-prev, .carousel-control-next{
+  top: 50px;
+  z-index: 0;
+}
+
+.carrosel {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -86,7 +121,7 @@ header img {
 
 .carrosel p:hover {
   text-decoration: underline;
-} */
+}
 
 #carouselExampleCaptions .carousel-inner .carousel-item img {
   width: 100%;
@@ -167,7 +202,7 @@ header img {
   position: static;
   height: 10vh;
   width: 2.5vw;
-  color: #352c84;
+  color: #342c82;
 }
 
 .setasesquedadireita{
@@ -199,7 +234,7 @@ footer {
   margin-top: 5vh;
   height: 25vh;
   width: 100%;
-  background-color: #352c84;
+  background-color: #342c82;
 }
 
 footer img {
