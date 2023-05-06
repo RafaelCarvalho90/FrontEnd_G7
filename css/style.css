@@ -43,7 +43,7 @@ header {
   transform: translate(100px, 0);
 }
 
-.iconeburge {
+#iconeburge {
   margin-left: 15px;
   transform: translate(-100px, 0);
 }
@@ -51,6 +51,41 @@ header {
 header img {
   height: 300px;
   transition: all 2s ease-in-out;
+}
+
+.caixas-barra-lateral{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 50px;
+  border: 10px;
+  border-color: #afc8df;
+  border-bottom: 50px;
+}
+
+.caixas-barra-lateral:hover{
+    background-color: #342c82;
+    color: #eaeaec;
+}
+
+#barra-lateral{
+  display: flex;
+  flex-direction: column;
+  top: 50px;
+  height: 100%;
+  width: 251px;
+  transform: translateX(-251px);
+  z-index: 1;
+  position: fixed;
+  background-image: linear-gradient(to bottom, #75a6d2, #352c8200);
+  transition: all 0.5s ease-in-out;
+}
+
+.carousel-control-prev, .carousel-control-next{
+  top: 50px;
+  z-index: 0;
 }
 
 .carrosel {
