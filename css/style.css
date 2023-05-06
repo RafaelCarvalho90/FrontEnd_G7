@@ -1,5 +1,5 @@
 :root {
-  --cor1: #352c84;
+  --cor1: #342c82;
   --cor2: #eaeaec;
   --cor3: #afc8df;
   --cor4: #75a6d2;
@@ -9,6 +9,7 @@
 body {
   overflow-x: hidden;
   overflow-y: hidden;
+  background: #eaeaec;
 }
 
 header {
@@ -21,14 +22,14 @@ header {
   height: 100%;
   width: 100%;
   transition: all 2s ease-in-out;
-  background-color: #352c84;
+  background-color: #342c82;
 }
 
 .iconescabeca {
-  margin-left: 20px;
-  margin-right: 20px;
-  height: 40px;
-  width: 40px;
+  margin-left: 2%;
+  margin-right: 2%;
+  height: 80%;
+  width: 4%;
   cursor: pointer;
   color: #afc8df;
   transition: transform 4s ease-in-out;
@@ -39,18 +40,19 @@ header {
 }
 
 .iconeconta {
-  width: 35px;
-  transform: translate(100px, 0);
+  width: 3%;
+  transform: translate(20vw, 0);
 }
 
 #iconeburge {
-  margin-left: 15px;
-  transform: translate(-100px, 0);
+  margin-left: 1.28%;
+  transform: translate(-20vw, 0);
 }
 
 header img {
-  height: 300px;
+  height: 40%;
   transition: all 2s ease-in-out;
+  cursor: pointer;
 }
 
 .caixas-barra-lateral{
@@ -99,7 +101,7 @@ header img {
 
 .carrosel img {
   margin-top: 50px;
-  width: 100%;
+  width: 50%;
   height: 692px;
 }
 
@@ -123,13 +125,12 @@ header img {
 }
 
 #carouselExampleCaptions .carousel-inner .carousel-item img {
-  margin-top: 50px;
   width: 100%;
-  height: 792px;
+  height: 100vh;
 }
 
 .carousel-caption {
-  bottom: 150px;
+  bottom: 18vh;
 }
 /* 
 .carousel-inner .carousel-item > img{
@@ -138,6 +139,7 @@ header img {
   animation: zoom 9s;
 }
 
+>>>>>>> gabriel
 @keyframes zoom {
   from {
       transform: scale(1, 1);
@@ -153,14 +155,14 @@ header img {
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  height: 100px;
+  height: 15vh;
 }
 
 .setinha {
   position: absolute;
   align-self: center;
-  height: 80px;
-  width: 80px;
+  height: 25vh;
+  width: 6vw;
   color: #eaeaecba;
   cursor: pointer;
 }
@@ -171,29 +173,28 @@ header img {
 
 .menu {
   width: 100%;
-  height: 1000px;
-  min-height: 1000px;
+  height: 100%;
   background-color: #eaeaec;
+  margin-top: 1vh;
 }
 
 .opcoes {
   display: flex;
   flex-direction: column;
-  height: 300px;
+  height: 50vh;
   width: 100%;
 }
 
 .opcoes b {
-  font-size: 20px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  font-size: 200%;
+  margin-left: 2vw;
+  margin-bottom: 8vh;
 }
 
 .caixas {
   display: flex;
   flex-direction: row;
-  height: 200px;
+  height: 20vh;
   width: fit-content;
   align-items: center;
   transition: all 1s ease-in-out;
@@ -202,9 +203,9 @@ header img {
 .setas {
   z-index: 1;
   position: static;
-  height: 50px;
-  width: 30px;
-  color: #352c84;
+  height: 10vh;
+  width: 2.5vw;
+  color: #342c82;
 }
 
 .setasesquedadireita{
@@ -215,19 +216,17 @@ header img {
 }
 
 .setaesquerda {
-margin-left: 15px;
+  margin-left: 1vw;
 }
 
 .setadireita {
-margin-right: 15px;
+  margin-right: 1vw;
 }
 
 .lugares {
-  height: 200px;
-  width: 300px;
-  min-width: 300px;
-  margin-left: 5px;
-  margin-right: 5px;
+  height: 30vh;
+  width: 21.2vw;
+  margin-left: 0.75vw;
   border-radius: 50px;
   background-color: #afc8df;
   transition: all 0.5s ease-in-out;
@@ -236,11 +235,72 @@ margin-right: 15px;
 footer {
   display: flex;
   justify-content: center;
-  height: 200px;
+  margin-top: 5vh;
+  height: 25vh;
   width: 100%;
-  background-color: #352c84;
+  background-color: #342c82;
 }
 
-footer img {
-  height: 200px;
+footer .bi {
+  color: white;
+}
+
+
+.rodape {
+  margin-top: 30px;
+  display:flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin-bottom: 15px;
+}
+
+.links a, .icons a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none !important;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.final {
+  color: white; 
+  text-transform: uppercase;
+  text-align: center;
+  font-size:12px;
+}
+
+.ponto {
+  color: white;
+}
+
+.bi-trello {
+  margin-left:15px;
+  margin-right:15px;
+}
+
+.logo {
+  display:flex;
+  justify-content: center;
+}
+
+.img-footer {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height:30px;
+}
+
+.pontinho {
+  color: white;
+  font-weight: bold;
 }
