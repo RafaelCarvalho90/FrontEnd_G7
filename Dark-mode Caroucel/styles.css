@@ -1,0 +1,95 @@
+#titulo{
+    color:rebeccapurple;
+    text-align: center;
+    font-size: 60px;
+}
+#titulo1{
+  position: relative;
+  color:rebeccapurple;
+  text-align: center;
+  font-size: 30px;
+  
+}
+#im1{
+    width: 50px;
+     height: 50px;
+     position: absolute;
+   }
+
+.col-md-4{
+    
+    display: inline-block;
+    margin-left:-10px;
+  }
+  .col-md-4 img{
+    border-radius: 40px;
+    width:100%;
+    height:auto;
+  }
+    
+  body .carousel-control-prev-icon,
+  body .carousel-indicators li,
+  body .carousel-control-next-icon{
+    background-color:#000;
+ 
+  }
+  
+  span.carousel-control-prev-icon {
+   position: relative;
+   bottom: 40px;
+   right: 40px;
+  }
+  
+  span.carousel-control-next-icon {
+   position: relative;
+   bottom: 40px;
+  }
+  @media (max-width: 591px) {
+    .col-md-4 {
+
+      display: block;
+      margin-left: 0;
+    }
+    
+    span.carousel-control-prev-icon,
+    span.carousel-control-next-icon {
+      bottom: 20px;
+    }
+    #titulo{
+        /* margin-top: 20px; */
+        font-size: 35px;
+        text-align: center;     
+    }
+    #im1{
+        width: 15px;
+        height: 15px;
+       }
+  }
+  body {
+    /* Defina as cores do modo claro */
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  body.dark-mode {
+    /* Defina as cores do modo noturno */
+    background-color: #22272e;
+    color: #f8f8f8;
+  }
+
+  
+  /* Defina uma cor de texto diferente para links em modo noturno */
+  body.dark-mode a {
+    color: #aaf;
+  }
+  
+  /* Escureça imagens em modo noturno */
+  body.dark-mode img {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: #22272e;
+    background-blend-mode: multiply;
+  }
+
+  
+
+  
