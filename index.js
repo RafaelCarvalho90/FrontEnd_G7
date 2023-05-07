@@ -7,8 +7,11 @@ const setaesquerda = document.getElementsByClassName("setaesquerda");
 const setadireita = document.getElementsByClassName("setadireita");
 const caixas = document.getElementsByClassName("caixas");
 const iconburge = document.getElementById("iconeburge")
-const barralateral = document.getElementById("barra-lateral")
+const barralateral = document.getElementById("barra-lateral");
+const contaicone = document.getElementById("iconeconta");
+const contacaixa = document.getElementById("conta-caixa");
 
+let contacaixapos = 0;
 let barrapos = 0;
 let movspd = 310;
 let dir = 0;
@@ -27,6 +30,16 @@ function inicio() {
         barralateral.style.transform = "translate(-251px, 0)";
         barrapos = 0;
       }
+    });
+
+    contaicone.addEventListener("click", (event)=>{
+      if(contacaixapos == 0){
+      contacaixapos = 1;
+      contacaixa.style.zIndex = "2";
+    }else{
+      contacaixapos = 0
+      contacaixa.style.zIndex = "-1";
+    }
     });
 
     Array.from(caixas).forEach(function (elemento) {
@@ -65,7 +78,7 @@ function inicio() {
 
 Array.from(setinha).forEach(function (elemento) {
   elemento.addEventListener("click", (event) => {
-    window.scrollTo(0, 792);
+    window.scrollTo(0, 742);
   });
 });
 
