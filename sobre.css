@@ -380,4 +380,74 @@ a {
   }
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  height: 25vh;
+  width: 100%;
+  background-color: #342c82;
+}
+
+footer .bi {
+  color: white;
+}
+.rodape {
+  margin-top: 30px;
+  display:flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin-bottom: 15px;
+}
+
+.links a, .icons a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none !important;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.final {
+  color: white; 
+  text-transform: uppercase;
+  text-align: center;
+  font-size:12px;
+}
+
+.ponto {
+  color: white;
+}
+
+.bi-trello {
+  margin-left:15px;
+  margin-right:15px;
+}
+
+.logo {
+  display:flex;
+  justify-content: center;
+}
+
+.img-footer {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height:30px;
+}
+
+.pontinho {
+  color: white;
+  font-weight: bold;
+}
 
