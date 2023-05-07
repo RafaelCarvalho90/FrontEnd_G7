@@ -154,10 +154,11 @@ addCardEvents('card5');
 function toggleDarkMode() {
   var content= document.querySelector('.content');
   var sol = document.querySelector('.sol');
-  var lua = document.querySelector('.lua')
+  var lua = document.querySelector('.lua');
   content.classList.toggle('dark-mode');
   sol.style.display='none';
   lua.style.display='block';
+
  }
  
  function toggleLightMode() {
