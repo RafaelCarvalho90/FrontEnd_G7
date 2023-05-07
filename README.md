@@ -22,17 +22,11 @@ Além de uma barra lateral posionada à esquerda, para agilizar a mudança de p�
 ## Status do projeto
 
 Tarefas: 
-- [x] (Concluído) Bônus carrinho
-- [x] (Concluído) Bônus tratamento de erro
-- [x] (Concluído) Bônus desenho logo da loja
-- [x] (Concluído) Produtos
-- [x] (Concluído) Tela de entrar na loja
-- [x] (Concluído) Tela de Menu
+
 - [x] (Concluído) Preencher o README.md
 - [x] (Concluído) Versionamento no Git e Repositório no GitHub
-- [x] (Concluído) Arte dos produtos
-- [x] (Concluído) Tela de login
-- [x] (Concluído) Tela de registro
+- [x] (Concluído) Alteração do footer
+- [x] (Concluído) Pagina Fale Conosco
 - [x] (Concluído) Pagina Principal
 - [x] (Concluído) Definição do uso do Bootstrap
 - [x] (Concluído) Definição do nome e logo do site
