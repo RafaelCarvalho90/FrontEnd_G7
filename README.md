@@ -16,7 +16,7 @@ Onde através dele é possivel ter acesso rápido aos novos eventos e também, c
 
 
 
-Já na pagina inicial é possivel encontrar um carrocel mostrando os principais pontos turisticos.
+Já na pagina inicial é possivel encontrar um carrossel mostrando os principais pontos turisticos.
 Além de uma barra lateral posionada à esquerda, para agilizar a mudança de páginas.
 
 ## Status do projeto
