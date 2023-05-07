@@ -221,33 +221,33 @@
 
 .card1 {
     background:
-        url('3.jpeg') center no-repeat;
+        url('./assets/images/3.jpeg') center no-repeat;
         filter: grayscale();
         justify-content: flex-end;
 }
 
 .card2 {
     background:
-        url('6.jpeg') center no-repeat;
+        url('./assets/images/6.jpeg') center no-repeat;
         filter: grayscale();
         justify-content: flex-end;
 }
 
 .card3 {
     background:
-        url('7.jpeg') center no-repeat;
+        url('./assets/images/7.jpeg') center no-repeat;
         filter: grayscale();
         justify-content: flex-end;
 }
 .card4 {
     background:
-        url('4.jpg') center no-repeat;
+        url('./assets/images/4.jpg') center no-repeat;
         filter: grayscale();
         justify-content: flex-end;
 }
 .card5 {
   background:
-      url('5.jpg') center no-repeat;
+      url('./assets/images/5.jpg') center no-repeat;
       filter: grayscale();
       justify-content: flex-end;
 }
@@ -317,7 +317,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-image: url(./back.jpeg);
+  background-image: url(./assets/images/back.jpeg);
 }
 
 .content {
