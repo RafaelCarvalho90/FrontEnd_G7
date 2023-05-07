@@ -1,0 +1,31 @@
+body {
+    background-image: linear-gradient(to bottom right, #01BDFD, #8E38D9);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    padding: 25px;
+    border-radius: 25px;
+    margin: 25px auto;
+    box-shadow: .5px 10px 15px;
+    text-align: center;
+}
+
+.container img {
+    margin-top: 25%;
+}
+
+form {
+    background-color: transparent;
+}
+
+.form-control{
+    background-color: transparent;
+}
+
+.btn.btn-primary {
+    background-image: linear-gradient(to bottom right, #01BDFD, #8E38D9);
+    width: 100%;
+    border: transparent;
+}
