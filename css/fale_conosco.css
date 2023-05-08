@@ -50,7 +50,7 @@ header a, img {
 
 .iconeconta {
   width: 3%;
-  transform: translate(-20vw, 0);
+  transform: translate(20vw, 0);
 }
 
 .iconeburge {
@@ -65,13 +65,13 @@ header img {
 
 .container {
   padding-top: 10vh;
-  background-color: #eaeaec;
+  background-color: transparent;
   width: 100%;
 }
 
 form {
   margin-top: 10%;
-  background-color: white;
+  background-color: transparent;
   border-radius: 10%;
   height: 100vh;
   max-height: 70vh;
@@ -80,6 +80,10 @@ form {
   align-items: center;
   -webkit-box-shadow: 0px -4px 24px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0px -4px 24px 2px rgba(0, 0, 0, 0.3);
+}
+
+.form-control {
+  background-color: transparent;
 }
 
 label {
@@ -174,4 +178,10 @@ footer .bi {
 .pontinho {
   color: white;
   font-weight: bold;
+}
+
+body.dark-mode{
+  background-color: #22272e;
+  color: #f8f8f8;
+  transition: all 1s ease-in-out;
 }

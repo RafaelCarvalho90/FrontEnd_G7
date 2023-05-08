@@ -39,9 +39,9 @@ header {
   color: #eaeaec;
 }
 
-#iconeconta {
+.iconeconta {
   width: 3%;
-  transform: translate(20vw, 0);
+  transform: translate(50vw, 0);
 }
 
 #iconeburge {
@@ -306,6 +306,7 @@ footer {
   justify-content: center;
   margin-top: 5vh;
   height: 25%;
+  max-height: 25%;
   width: 100%;
   background-color: #342c82;
 }
@@ -399,4 +400,45 @@ footer .bi {
   flex-direction: row;
   justify-content: center;
 
+}
+
+.content {
+  align-items: center;
+  padding-top: 50px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  color: #333;
+  transition: all 1s ease-in-out;
+  min-height: calc(100vh - 100px); 
+}
+
+body.dark-mode {
+  /* Defina as cores do modo noturno */
+  /* background-color: #22272e; */
+  background-color:  #22272e;
+  color: #f8f8f8;
+  transition: all 1s ease-in-out;
+}
+
+.caixacard.dark-mode{
+  background-color: #22272e;
+  color: #f8f8f8;
+  transition: all 1s ease-in-out;
+}
+
+.menu.dark-mode{
+  background-color: #22272e;
+  color: #f8f8f8;
+  transition: all 1s ease-in-out;
+}
+
+#sobre.dark-mode{
+  background-color: #22272e;
+  color: #f8f8f8;
+  transition: all 1s ease-in-out;
+}
+#about{
+  text-align: center;
 }
