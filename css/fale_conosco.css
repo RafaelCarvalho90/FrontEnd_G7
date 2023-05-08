@@ -50,7 +50,7 @@ header a, img {
 
 .iconeconta {
   width: 3%;
-  transform: translate(20vw, 0);
+  transform: translate(-20vw, 0);
 }
 
 .iconeburge {
@@ -70,10 +70,10 @@ header img {
 }
 
 form {
-  padding: 5vh;
+  margin-top: 10%;
   background-color: white;
-  border-radius: 3.5vw;
-  height: 70vh;
+  border-radius: 10%;
+  height: 100vh;
   max-height: 70vh;
   display: flex;
   flex-direction: column;
@@ -83,17 +83,16 @@ form {
 }
 
 label {
-  margin-top: 2vh;
+  margin-top: 3%;
 }
 
 .form-group {
-  width: 70vw;
-  max-height: 50vh;
+  width: 90%;
 }
 
 .btn {
-  width: 70vw;
-  margin-top: 2vh;
+  width: 90%;
+  margin-top: 3%;
   background-color: #342c82;
   border: none;
 }
