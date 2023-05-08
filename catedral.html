@@ -124,24 +124,27 @@
                 </div>
                 <div class="lado-esquerdo">
                     <h2>LOCALIZAÇÃO</h2>
+                    <div id="map"></div>
                     <script>
                         function initMap() {
                             //LOCALIZAÇÃO
-                            const hotel = { lat: -22.5268304, lng: -43.2124645 };
+                            const catedral = { lat: -22.505651, lng: -43.179143 };
 
                             const map = new google.maps.Map(document.getElementById("map"), {
-                                zoom: 4,
-                                center: hotel,
+                                zoom: 17,
+                                center: catedral,
                             });
                         // The marker, positioned at Uluru
                             const marker = new google.maps.Marker({
-                                position: hotel,
+                                position: catedral,
                                 map: map,
                             });
                         }
 
-window.initMap = initMap;
-                    </script>
+                        window.initMap = initMap;
+                        </script>
+                        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCagh3a_9tqHjK21e1-9Wb0OpK7Rn1svAA&callback=initMap&v=weekly"
+                        defer></script>
                 </div>
             </div>
         </div>

@@ -109,12 +109,14 @@ header img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 15px;
+  margin-left: 0.75vw;
+  margin-top: 4vh;
 }
 
 #conta-opcoes{
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
 }
 
 .conta-opcoes-botoes{
@@ -122,13 +124,14 @@ header img {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  height: 50px;
+  height: 8vh;
   cursor: pointer;
 }
 
 .conta-opcoes-botoes:hover{
  color: #eaeaec;
  background-color: #342c82;
+ border-radius: 0px 0px 5px 20px;
 }
 
 #conta-icone{

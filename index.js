@@ -120,21 +120,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
   showSlide(currentSlide);
 });
-
-// Initialize and add the map
-function initMap() {
-  // The location of Uluru
-  const hotel = { lat: -22.5268304, lng: -43.2124645 };
-  // The map, centered at Uluru
-  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
-    center: hotel,
-  });
-  // The marker, positioned at Uluru
-  const marker = new google.maps.Marker({
-    position: hotel,
-    map: map,
-  });
-}
-
-window.initMap = initMap;
