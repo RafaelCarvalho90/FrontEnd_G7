@@ -442,3 +442,13 @@ body.dark-mode {
 #about{
   text-align: center;
 }
+
+#filtro-de-destinos {
+  margin-top: 10vh;
+  margin-left: 44%;
+}
+
+#lista-de-destinos {
+  margin-top: 2vh;
+  text-align: center;
+}

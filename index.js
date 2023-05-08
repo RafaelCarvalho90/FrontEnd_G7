@@ -24,9 +24,11 @@ function inicio() {
 
     iconburge.addEventListener("click", (event) =>{
       if(barrapos == 0){
+        console.log("cheguei")
       barralateral.style.transform = "translate(0px, 0)";
       barrapos = 1;
       }else{
+        console.log("fui")
         barralateral.style.transform = "translate(-251px, 0)";
         barrapos = 0;
       }
@@ -130,6 +132,7 @@ function toggleDarkMode() {
   menu.classList.toggle('dark-mode')
   sol.style.display='none';
   lua.style.display='block';
+
  }
  
  function toggleLightMode() {

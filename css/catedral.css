@@ -1,7 +1,7 @@
 body {
     background-image: url(/assets/images/catedralBg.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw 100vh;
 }
 
 header {
@@ -196,7 +196,7 @@ header img {
 }
 
 #map {
-  height: 81vh; /* The height is 400 pixels */
+  height: 45vh; /* The height is 400 pixels */
   width: 100%; /* The width is the width of the web page */
 }
 

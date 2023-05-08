@@ -6,7 +6,13 @@ const lugares = document.getElementsByClassName("lugares");
 const setaesquerda = document.getElementsByClassName("setaesquerda");
 const setadireita = document.getElementsByClassName("setadireita");
 const caixas = document.getElementsByClassName("caixas");
+const iconburge = document.getElementById("iconeburge")
+const barralateral = document.getElementById("barra-lateral");
+const contaicone = document.getElementById("iconeconta");
+const contacaixa = document.getElementById("conta-caixa");
 
+let contacaixapos = 0;
+let barrapos = 0;
 let movspd = 310;
 let dir = 0;
 
@@ -15,6 +21,29 @@ function inicio() {
     cabeca.style.height = "50px";
     turistecimg.style.height = "50px";
     document.body.style.overflowY = "visible";
+
+    iconburge.addEventListener("click", (event) =>{
+      if(barrapos == 0){
+        console.log("cheguei")
+      barralateral.style.transform = "translate(0px, 0)";
+      barrapos = 1;
+      }else{
+        console.log("fui")
+        barralateral.style.transform = "translate(-251px, 0)";
+        barrapos = 0;
+      }
+    });
+
+    contaicone.addEventListener("click", (event)=>{
+      if(contacaixapos == 0){
+      contacaixapos = 1;
+      contacaixa.style.zIndex = "2";
+      console.log("aaaaaaaaaaaaaaaaaaaaaaaaa")
+    }else{
+      contacaixapos = 0
+      contacaixa.style.zIndex = "-1";
+    }
+    });
 
     Array.from(caixas).forEach(function (elemento) {
       elemento.pos = 0;
@@ -52,7 +81,7 @@ function inicio() {
 
 Array.from(setinha).forEach(function (elemento) {
   elemento.addEventListener("click", (event) => {
-    window.scrollTo(0, 792);
+    window.scrollTo(0, 742);
   });
 });
 
@@ -93,24 +122,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   showSlide(currentSlide);
 });
-
-// Initialize and add the map
-function initMap() {
-  // The location of Uluru
-  const hotel = { lat: -22.5268304, lng: -43.2124645 };
-  // The map, centered at Uluru
-  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
-    center: hotel,
-  });
-  // The marker, positioned at Uluru
-  const marker = new google.maps.Marker({
-    position: hotel,
-    map: map,
-  });
-}
-
-window.initMap = initMap;
 
 // const card = document.querySelector('.card1');
 // const nome = document.querySelector('h2');
