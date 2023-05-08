@@ -243,3 +243,29 @@ footer {
 footer img {
   height: 25vh;
 }
+
+.rodape {
+  display:flex;
+  flex-direction: column;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-content: center;
+}
+
+.links a, .icons a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none !important;
+}
+
+.icons {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
