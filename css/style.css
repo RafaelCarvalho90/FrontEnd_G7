@@ -288,7 +288,7 @@ footer {
   display: flex;
   justify-content: center;
   margin-top: 5vh;
-  height: 25vh;
+  height: 25%;
   width: 100%;
   background-color: #342c82;
 }
@@ -300,6 +300,7 @@ footer .bi {
 
 .rodape {
   margin-top: 30px;
+  margin-bottom: 30px;
   display:flex;
   flex-direction: column;
   width: 250px;

@@ -36,6 +36,7 @@ function inicio() {
       if(contacaixapos == 0){
       contacaixapos = 1;
       contacaixa.style.zIndex = "2";
+      console.log("aaaaaaaaaaaaaaaaaaaaaaaaa")
     }else{
       contacaixapos = 0
       contacaixa.style.zIndex = "-1";
