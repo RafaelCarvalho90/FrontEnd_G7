@@ -285,6 +285,20 @@ header img {
   border-radius: 50px;
   background-color: #afc8df;
   transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+}
+
+.texto-museu:hover {
+  text-decoration: underline;
+}
+
+.texto-catedral:hover {
+  text-decoration: underline;
 }
 
 footer {
