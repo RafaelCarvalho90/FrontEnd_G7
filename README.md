@@ -28,6 +28,8 @@ Tarefas:
 - [x] (Concluído) Alteração do footer
 - [x] (Concluído) Pagina Fale Conosco
 - [x] (Concluído) Pagina Principal
+- [x] (Concluído) Pagina Sobre
+- [x] (Concluído) Aplicação modo noturno
 - [x] (Concluído) Definição do uso do Bootstrap
 - [x] (Concluído) Definição do nome e logo do site
 - [x] (Concluído) Descrição do modelo do site
