@@ -153,9 +153,11 @@ addCardEvents('card5');
 
 function toggleDarkMode() {
   var content= document.querySelector('.content');
+  var form = document.querySelector('form')
   var sol = document.querySelector('.sol');
   var lua = document.querySelector('.lua');
   content.classList.toggle('dark-mode');
+  form.classList.toggle('dark-mode')
   sol.style.display='none';
   lua.style.display='block';
 
@@ -163,9 +165,11 @@ function toggleDarkMode() {
  
  function toggleLightMode() {
   var content= document.querySelector('.content');
+  var form = document.querySelector('form')
   var sol = document.querySelector('.sol');
   var lua = document.querySelector('.lua')
   content.classList.toggle('dark-mode');
+  form.classList.toggle('dark-mode')
   sol.style.display='block';
   lua.style.display='none';
  }

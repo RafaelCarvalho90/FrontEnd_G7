@@ -9,6 +9,8 @@
   body {
     overflow-x: hidden;
     overflow-y: hidden;
+    padding: 0;
+    margin: 0;
   }
   
   header {
@@ -254,6 +256,7 @@
 /* General styles end */
 
 .card {
+    /* cursor: pointer; */
     margin: 0 15px;
     width: 150px;
     height: 200px;
@@ -320,7 +323,7 @@ body {
   background-image: url(./assets/images/back.jpeg);
 }
 
-.content {
+/* .content {
   height: auto;
   background-color: #eaeaec;
   align-items: flex-end;
@@ -328,8 +331,8 @@ body {
   display: flex;
   justify-content:space-evenly;
   box-sizing: border-box;
-  min-height: calc(100vh - 100px); /* altura da tela menos a altura do footer */
-}
+  
+} */
 
 .footer {
   height: 100px;
@@ -357,28 +360,26 @@ a {
 }
 
 .content {
-  /* Defina as cores do modo claro */
+  align-items: center;
+  padding-top: 50px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
   background-color: #f8f8f8;
   color: #333;
   transition: all 1s ease-in-out;
+  min-height: calc(100vh - 100px); 
 }
 
 .content.dark-mode {
   /* Defina as cores do modo noturno */
-  background-color: #22272e;
+  /* background-color: #22272e; */
+  background-color:  #0f1114;
   color: #f8f8f8;
   transition: all 1s ease-in-out;
 }
 
-@media (max-width: 768px) {
-  /* Estilos para o cabeçalho */
-  .content{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 1rem;
-  }
-}
+
 
 footer {
   display: flex;
@@ -450,4 +451,69 @@ footer .bi {
   color: white;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  /* Estilos para o cabeçalho */
+  .content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+  }
+}
 
+#sobre{
+  margin-top: 30px;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 100%;
+ 
+}
+.caixacard{
+  align-items: center;
+  justify-content: space-evenly;
+  height: 250px;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 45px;
+  
+
+}
+
+form {
+  justify-content: space-evenly;
+  margin-top: 5vh;
+  background-color: white;
+  color:black;
+  border-radius: 3.5vw;
+  height: 70vh;
+  max-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-box-shadow: 0px -4px 24px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px -4px 24px 2px rgba(0, 0, 0, 0.3);
+  transition: all 1s ease-in-out;
+}
+.caixacard.dark-mode{
+  background-color: #22272e;
+  color: #f8f8f8;
+  transition: all 1s ease-in-out;
+}
+
+form.dark-mode{
+  background-color: #22272e;
+  color: #f8f8f8;
+  transition: all 1s ease-in-out;
+}
+#sobre.dark-mode{
+  background-color: #22272e;
+  color: #f8f8f8;
+  transition: all 1s ease-in-out;
+}
+#about{
+  text-align: center;
+}
