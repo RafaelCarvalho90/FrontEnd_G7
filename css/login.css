@@ -1,11 +1,11 @@
 body {
-    background-image: linear-gradient(to bottom right, #3b84c5, #342c82);
+    background-color: #eaeaec;
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 header {
-    z-index: 1;
+    z-index: 4;
     display: flex;
     position: fixed;
     flex-direction: row;
@@ -74,7 +74,7 @@ header {
     transform: translateX(-251px);
     z-index: 1;
     position: fixed;
-    background-image: linear-gradient(to bottom, #75a6d2, #352c8200);
+    background-color: #eaeaec;
     transition: all 0.5s ease-in-out;
   }
   
@@ -134,14 +134,15 @@ header {
     width: 80%;
     height: 55vh;
     border-radius: 25px;
-    box-shadow: .5px 10px 15px;
+    -webkit-box-shadow: 0px 2px 13px 0px rgba(0,0,0,0.55); 
+    box-shadow: 0px 2px 13px 0px rgba(0,0,0,0.55);
     text-align: center;
     padding-top: 5vh;
-    margin-top: -20vh;
+    margin-top: 10vh;
 }
 
 .faca-login {
-    color: white;
+    color: #3b84c5;
     font-size: 200%;
     margin-bottom: 5%;
 }
@@ -167,7 +168,7 @@ header {
 }
 
 .esqueceu-senha {
-    color: white;
+    color: #3b84c5;
 }
 
 footer {
@@ -241,4 +242,10 @@ footer {
   .pontinho {
     color: white;
     font-weight: bold;
+  }
+
+  body.dark-mode{
+    background-color: #22272e;
+    color: #f8f8f8;
+    transition: all 1s ease-in-out;
   }

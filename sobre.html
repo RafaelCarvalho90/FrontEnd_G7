@@ -19,11 +19,11 @@
 <body onload="inicio()">
     <header id="cabeca">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-            class="bi bi-list iconescabeca iconeburge" viewBox="0 0 16 16">
+            class="bi bi-list iconescabeca" id="iconeburge" viewBox="0 0 16 16">
             <path fill-rule="evenodd"
                 d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
         </svg>
-        <img src="/assets/images/turisteclogocrop.jpeg" alt="" id="turistecimg">
+        <img src="/assets/images/turisteclogocrop.jpeg" alt="" id="turistecimg" onclick="window.location.href='index.html'">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
             class="bi bi-brightness-high iconescabeca iconeconta sol" viewBox="0 0 16 16" onclick="toggleDarkMode()"
             style="border: none;">
@@ -38,10 +38,28 @@
         </svg>
     </header>
 
+    <div id="barra-lateral">
+        <div class="caixas-barra-lateral" onclick="window.location.href='index.html'">
+            <p>HOME</p>
+        </div>
+        <div class="caixas-barra-lateral" onclick="window.location.href='fale_conosco.html'">
+            <p>FALE CONOSCO</p>
+        </div>
+        <div class="caixas-barra-lateral" onclick="window.location.href='sobre.html'">
+            <p>SOBRE NÓS</p>
+        </div>
+        <div class="caixas-barra-lateral" onclick="window.location.href='login.html'">
+            <p>LOGIN</p>
+        </div>
+        <div class="caixas-barra-lateral" onclick="window.location.href='api.html'">
+            <p>EM BREVE</p>
+        </div>
+    </div>
+
     <div class="content">
         <form>
         <div id="sobre">
-            <h1 id="about">Sobre</h1>
+            <h1 id="about">SOBRE NÓS</h1>
             <br>
             <h4>A página de turismo "Turistec" é uma plataforma online que oferece informações e recursos para viajantes
             interessados em explorar diferentes destinos turísticos ao redor do mundo. Com um layout moderno e fácil de
@@ -51,7 +69,7 @@
         <div class="caixacard">
             <div class="card card1">
                 <a href="https://github.com/GuardiaoX">
-                    <h2 style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" width="15%" height="100%"
+                    <h2 class="nome-card" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" width="15%" height="100%"
                             style="margin-bottom: 7px; margin-right: 15px;" margin-bottom="5px" fill="currentColor"
                             class="bi bi-github" viewBox="0 0 16 16">
                             <path
@@ -62,7 +80,7 @@
 
             <div class="card card2">
                 <a href="https://github.com/GabrielNunes11">
-                    <h2 style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" width="15%" height="100%"
+                    <h2 class="nome-card" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" width="15%" height="100%"
                             style="margin-bottom: 7px; margin-right: 15px;" margin-bottom="5px" fill="currentColor"
                             class="bi bi-github" viewBox="0 0 16 16">
                             <path
@@ -72,7 +90,7 @@
             </div>
             <div class="card card3">
                 <a href="https://github.com/crznatalie">
-                    <h2 style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" width="15%" height="100%"
+                    <h2 class="nome-card" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" width="15%" height="100%"
                             style="margin-bottom: 7px; margin-right: 15px;" margin-bottom="5px" fill="currentColor"
                             class="bi bi-github" viewBox="0 0 16 16">
                             <path
@@ -82,7 +100,7 @@
             </div>
             <div class="card card4">
                 <a href="https://github.com/RafaelCarvalho90">
-                    <h2 style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" width="15%" height="100%"
+                    <h2 class="nome-card" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" width="15%" height="100%"
                             style="margin-bottom: 7px; margin-right: 15px;" margin-bottom="5px" fill="currentColor"
                             class="bi bi-github" viewBox="0 0 16 16">
                             <path
@@ -92,7 +110,7 @@
             </div>
             <div class="card card5">
                 <a href="https://github.com/RicardoPonte">
-                    <h2 style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" width="15%" height="100%"
+                    <h2 class="nome-card" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" width="15%" height="100%"
                             style="margin-bottom: 7px; margin-right: 15px;" margin-bottom="5px" fill="currentColor"
                             class="bi bi-github" viewBox="0 0 16 16">
                             <path

@@ -24,9 +24,11 @@ function inicio() {
 
     iconburge.addEventListener("click", (event) =>{
       if(barrapos == 0){
+        console.log("cheguei")
       barralateral.style.transform = "translate(0px, 0)";
       barrapos = 1;
       }else{
+        console.log("fui")
         barralateral.style.transform = "translate(-251px, 0)";
         barrapos = 0;
       }
@@ -120,3 +122,26 @@ document.addEventListener("DOMContentLoaded", function () {
 
   showSlide(currentSlide);
 });
+
+function toggleDarkMode() {
+  var body= document.querySelector('body');
+  var menu = document.querySelector('.menu')
+  var sol = document.querySelector('.sol');
+  var lua = document.querySelector('.lua');
+  body.classList.toggle('dark-mode');
+  menu.classList.toggle('dark-mode')
+  sol.style.display='none';
+  lua.style.display='block';
+
+ }
+ 
+ function toggleLightMode() {
+  var body= document.querySelector('body');
+  var menu = document.querySelector('.menu')
+  var sol = document.querySelector('.sol');
+  var lua = document.querySelector('.lua')
+  body.classList.toggle('dark-mode');
+  menu.classList.toggle('dark-mode')
+  sol.style.display='block';
+  lua.style.display='none';
+ }

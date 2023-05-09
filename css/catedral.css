@@ -138,7 +138,7 @@ header img {
   width: 45%;
   height: 100%;
   background:rgba(88, 88, 88, 0.400);
-  margin-top: -12vh;
+  margin-top: 80px;
   margin-left: 5%;
   color: white;
 }
@@ -196,7 +196,7 @@ header img {
 }
 
 #map {
-  height: 81vh; /* The height is 400 pixels */
+  height: 45vh; /* The height is 400 pixels */
   width: 100%; /* The width is the width of the web page */
 }
 
